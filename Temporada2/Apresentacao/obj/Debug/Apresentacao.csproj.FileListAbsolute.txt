@@ -1,0 +1,9 @@
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Bruno\Desktop\Projetos C#\Temporada2\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Bruno\Source\Repos\ControlSale\Temporada2\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Bruno\Source\Repos\ControlSale\Temporada2\Apresentacao\obj\Debug\Apresentacao.pdb
