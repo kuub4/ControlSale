@@ -38,7 +38,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PedidoItemNegocios.cs" />
+    <Compile Include="PedidoNegocios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcessoBancoDados\AcessoBancoDados.csproj">
+      <Project>{af531242-f4bb-46c4-8f35-ff029315a596}</Project>
+      <Name>AcessoBancoDados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
+      <Project>{1370a7b1-9276-49b6-ab90-6b75cc30ec01}</Project>
+      <Name>ObjetoTransferencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

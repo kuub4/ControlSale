@@ -111,10 +111,7 @@ namespace AcessoBancoDados
                 
                 throw new Exception(ex.Message);
             }
-            
-        
+                   
         }
-
-
     }
 }
