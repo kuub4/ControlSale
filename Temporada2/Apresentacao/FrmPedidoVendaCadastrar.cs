@@ -9,11 +9,15 @@ using System.Windows.Forms;
 
 namespace Apresentacao
 {
-    public partial class Form1 : Form
+    public partial class FrmPedidoVendaCadastrar : Form
     {
-        public Form1()
+        public FrmPedidoVendaCadastrar()
         {
             InitializeComponent();
         }
+
+     
+
+ 
     }
 }
