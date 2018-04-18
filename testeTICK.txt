@@ -1,0 +1,90 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TesteFormTick
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        DateTime dtInicio = DateTime.Now;
+        System.Timers.Timer timer = new System.Timers.Timer(5000);
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+                  
+            timer.AutoReset = true;
+            timer.Enabled = false;
+            timer.Elapsed += timer_Elapsed;
+           // timer.Start();
+            timer1.Enabled = false;
+
+        }
+
+        public void timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            try
+            {
+                dtInicio = DateTime.Now;
+                string teste;
+                teste = "";
+                //timer1.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+       
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+               label1.Text = dtInicio.ToString();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                timer.Enabled = false;
+                timer1.Enabled = false;
+                label2.Text = "PARADO";
+                label2.ForeColor = System.Drawing.Color.Red;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer.Enabled = true;
+            timer1.Enabled = true;
+            label2.Text = "ANDAMENTO";
+            label2.ForeColor = System.Drawing.Color.Green;
+        }
+    }
+}
